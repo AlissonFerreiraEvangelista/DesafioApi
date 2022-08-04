@@ -1,0 +1,17 @@
+GET  http://localhost:8080/workspaces
+
+###
+POST http://localhost:8080/workspace/save
+Content-Type: application/json
+
+{
+    "name":"Jeferson",
+    "kind":"SITE",
+    "description":"Criado"
+    
+}
+###
+GET  http://localhost:8080/workspace/1
+
+###
+DELETE  http://localhost:8080/workspace/3
