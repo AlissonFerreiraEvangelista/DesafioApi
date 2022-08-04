@@ -43,7 +43,7 @@ services:
       - SPRING_DATASOURCE_PASSWORD=Ta2506f
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
     ports:
-      - "8080"
+      - "8008"
     networks:
       - api-network
     depends_on:
@@ -61,7 +61,7 @@ services:
       - SPRING_DATASOURCE_PASSWORD=Ta2506f
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
     ports:
-      - "8080"
+      - "8008"
     networks:
       - api-network
     depends_on:

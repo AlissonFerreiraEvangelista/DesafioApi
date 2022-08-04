@@ -13,8 +13,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 public class ApiDesafioApplication {
 
 	public static void main(String[] args) {
-		//System.setProperty("server.port", "8008");
+		System.setProperty("server.port", "8008");
 		SpringApplication.run(ApiDesafioApplication.class, args);
 	}
-
+ 
 }
