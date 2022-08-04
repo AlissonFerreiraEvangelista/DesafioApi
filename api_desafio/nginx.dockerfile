@@ -1,7 +1,8 @@
 FROM nginx:latest
 LABEL maintainer="Alisson"
+COPY /src/main/resources/static /var/www/public
 COPY /nginx/app.conf /etc/nginx/nginx.conf
-RUN chmod 755 -R /usr/share/nginx/html
+RUN chmod 755 -R /var/www/public
 EXPOSE 80 443
 ENTRYPOINT ["nginx"]
 # Parametros extras para o entrypoint
