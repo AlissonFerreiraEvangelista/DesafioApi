@@ -15,9 +15,10 @@ Projeto criar uma API Rest para registrar estatísticas de visitas em site e apl
  ## Features
 
  1 - Clone do projeto https://github.com/AlissonFerreiraEvangelista/DesafioApi.git
- 2 - Abrir o terminal e dar cd no local do projeto
- 3 - docker compose build
- 4 - docker compose up
+ <br>
+ 2 - Abrir o terminal e dar cd no local do projeto <br>
+ 3 - docker compose build <br>
+ 4 - docker compose up <br>
  
 # Endpoints
 
